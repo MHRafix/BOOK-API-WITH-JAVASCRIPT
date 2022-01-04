@@ -1,0 +1,85 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+ 
+font-family: 'Poppins', sans-serif;
+}
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+.courses-box {
+    width: 100%;
+    box-shadow: 1px 1px 6px #777676a6;
+    padding: 15px;
+    border-radius: 10px;
+    transition: .5s;
+
+}
+
+.courses-box img {
+    width: 100%;
+    height: 250px;
+}
+
+.courses-box span a {
+    color: #ff4a60d9;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.courses-box small {
+    background: #ff54692e;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    float: right;
+    color: #f1483f;
+    text-decoration: none;
+    font-weight: 600;
+}
+.courses-box small a img {
+    width: 10%;
+}
+.courses-box h2 a{
+    color: #222;
+    text-decoration: none;
+    transition: .5s;
+}
+
+button.enroll {
+    color: white;
+    background: #562eff;
+    border: none;
+    outline: none;
+    padding: 7.5px 10px;
+    margin-top: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: .5s;
+    margin-bottom: 15px;
+}
+
+button.enroll:hover{
+    color: #7757ff;
+    background: #5d3af321;
+}
+
+.courses-box h2 a {
+    font-size: 18px;
+}

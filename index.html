@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment - 06</title>
+	<!-- Bootstrap CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		
+	</style>
+</head>
+<body>
+   <!-- SITE HEADING -->
+	<h1 class="text-center text-info mt-5">Serach Your Favourite Book Here</h1>
+
+   <!-- SEARCH FORM STARTS HERE -->
+
+	<div class="searchForm mx-auto w-50">
+		<span id="resultLength" class="text-center text-success fs-4"></span>
+		<span id="erorrAlert" class="text-danger text-success fs-4"></span><br><br>
+   <input class="form-control form-control-lg" type="search" id="searchField" placeholder="Search Your Fav Book" aria-label=".form-control-lg example"><br>
+  <button id="searchBtn" onclick="searchBookData()" class="btn btn-info text-white">Search Now</button></div><br><br>
+
+  <!-- SEARCH FORM ENDS HERE -->
+ 
+ <div class="container mx-auto">
+ 		<div class="boxes gx-5" id="bookDetails">
+</div>
+ </div>
+  
+ 
+ 
+  
+	<script src="js/index.js"></script>
+</body>
+</html>
